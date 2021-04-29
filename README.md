@@ -25,12 +25,6 @@ Configured with best practices.
 
 `yarn build`
 
-## Release
-
-Add any configuration to the `build` section of `package.json`, add an `.env-secrets.json` file in the `.config` folder with any environment secrets that you need for your publisher, and then run 
-
-`yarn publish`
-
 # License
 
 MIT
