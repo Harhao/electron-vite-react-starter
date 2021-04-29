@@ -1,6 +1,7 @@
 # Electron 12 + TypeScript 4.0 + Vite 2 + React 17 + antd starter
 
-![Electron + Vite + React Starter](https://gitee.com/Harhao/picture/blob/master/example.png)
+![image](https://user-images.githubusercontent.com/15929863/116516778-9a5fdd00-a900-11eb-866f-475c16b1fedb.png)
+
 
 Blazing fast Electron starter including 
 - [x] `Vite` for next generation frontend tooling
