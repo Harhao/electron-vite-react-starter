@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/15929863/116516778-9a5fdd00-a900-11eb-866f-475c16b1fedb.png)
 
-[English](https://github.com/Harhao/electron-vite-react-starter/edit/master/README.md) | [中文]([English](https://github.com/Harhao/electron-vite-react-starter/edit/master/README-zn.md))
+[English](https://github.com/Harhao/electron-vite-react-starter/edit/master/README.md) | [中文](https://github.com/Harhao/electron-vite-react-starter/blob/master/README-zn.md)
 
 Blazing fast Electron starter including 
 - [x] `Vite` for next generation frontend tooling
