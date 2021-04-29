@@ -14,18 +14,16 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1050,
     height: 650,
-    frame: false,
     useContentSize: true,
     resizable: false,
-    opacity: 0.85,
+    opacity: 1,
     webPreferences: {
-      nodeIntegration: true,
+      nodeIntegration: false,
       webSecurity: false,
     },
   })
 
   mainWindow.loadURL(winURL)
-  mainWindow.webContents.openDevTools({ mode: 'bottom' })
   mainWindow.on('closed', () => {
     mainWindow = null
   })
