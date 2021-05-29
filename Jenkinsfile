@@ -9,7 +9,7 @@ pipeline {
 
     stage('test') {
       steps {
-        sh '''npm install
+        sh '''npm install &&
 npm run lint'''
       }
     }
