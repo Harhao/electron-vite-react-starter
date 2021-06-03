@@ -9,6 +9,7 @@ pipeline {
 
     stage('test') {
       steps {
+        sh 'npm clean cache'
         sh 'npm config set registry https://registry.npm.taobao.org'
         sh '''npm install &&
 npm run lint'''
