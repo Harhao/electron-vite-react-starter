@@ -8,7 +8,7 @@
     "dev": "npm run dev:all",
     "dev:all": "concurrently -n=react,electron -c=green,blue \"npm run dev:react\" \"npm run dev:ele\"",
     "dev:react": "vite",
-    "dev:ele": "node -r ts-node/register script/build --env=development --watch",
+    "dev:ele": "node --experimental-worker -r ts-node/register script/build --env=development --watch",
     "build:react": "vite build",
     "build:ele": "node -r ts-node/register script/build --env=production",
     "build": "rimraf dist && npm run build:react && npm run build:ele && electron-builder",
