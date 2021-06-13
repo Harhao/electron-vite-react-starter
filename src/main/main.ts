@@ -2,6 +2,7 @@ import { app, BrowserWindow } from 'electron'
 import { join } from 'path'
 let mainWindow: any = null
 const env = process.env.environment
+
 const winURL =
   env == 'development'
     ? `http://localhost:${process.env.PORT}`

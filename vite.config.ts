@@ -12,7 +12,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': join(__dirname, 'src/render'),
+      '@': join(__dirname, 'src/renderer'),
       '@src': join(__dirname, 'src'),
       '@root': __dirname,
       '@assets': join(__dirname,'src/renderer/assets')
@@ -22,7 +22,7 @@ export default defineConfig({
     exclude: ['electron-store', 'electron'],
   },
   build: {
-    outDir: join(__dirname, 'dist/render'),
+    outDir: join(__dirname, 'dist/renderer'),
     sourcemap: true,
     minify: false,
     rollupOptions: {

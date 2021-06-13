@@ -11,7 +11,7 @@
     "baseUrl": "./",
     "strict": true,
     "paths": {
-      "@/*": ["src/render/*"],
+      "@/*": ["src/renderer/*"],
       "@src/*": ["src/*"],
       "@root/*": ["./*"]
     },
